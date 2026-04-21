@@ -2,6 +2,7 @@
 
 python -m venv venv
 
+# For Windows with GitBash
 source venv/Scripts/activate
 
 python -m pip install --upgrade pip
@@ -9,9 +10,3 @@ python -m pip install --upgrade pip
 pip install -r requirements
 
 touch .gitignore
-
-echo '# folders' >> .gitignore
-echo 'venv/' >> .gitignore
-echo '' >> .gitignore
-echo '# files' >> .gitignore
-echo '.env' >> .gitignore
